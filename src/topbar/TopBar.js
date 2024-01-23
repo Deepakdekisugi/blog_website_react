@@ -1,17 +1,27 @@
 import React from "react";
+import styled from 'styled-components';
 
 
 export default function TopBar() {
-  const topBarStyle = {
-    height: "50px",
-    width: "100%",
-    backgroundColor: "aqua",
-    positon: "sticky",
-    top: 0,
-    display: "flex",
-    alignitems: "center",
-    fontfamily: 'josefin Sans, sans-serif',
-  };
-
-  return <div className="top" style={topBarStyle}>TopBar</div>;
+  
+  return (
+  <TopBarStyle>
+    <div className="navbar">TopBar</div>
+  </TopBarStyle>
+  )
 }
+
+const TopBarStyle = styled.div`
+    margin: 0%;
+    padding: 0;
+    .navbar{
+        height: 50px;
+        width: 100%;
+        background-color: aqua;
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        font-family: josefin Sans, sans-serif;
+      }
+`;
