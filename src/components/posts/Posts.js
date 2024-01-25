@@ -1,6 +1,5 @@
 import Post from "../post/Post";
 import styled from "styled-components";
-import "./posts.css";
 
 export default function Posts() {
   return (

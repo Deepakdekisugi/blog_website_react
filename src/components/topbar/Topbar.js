@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import "./topbar.css";
 
 export default function Topbar() {
   const user = true;

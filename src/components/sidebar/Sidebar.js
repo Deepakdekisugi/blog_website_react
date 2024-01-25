@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import "./sidebar.css";
 
 export default function Sidebar() {
   return (
