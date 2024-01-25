@@ -1,4 +1,3 @@
-import "./settings.css";
 import styled from "styled-components";
 import Sidebar from "../../components/sidebar/Sidebar";
 

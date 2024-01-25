@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "./login.css";
 
 export default function Login() {
   return (
